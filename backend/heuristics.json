@@ -1,0 +1,56 @@
+[
+    {
+        "command_pattern": "no service password-encryption",
+        "parameter": "password_encryption_enabled",
+        "value": true,
+        "vendor": "Cisco"
+    },
+    {
+        "command_pattern": "set snmp v(\\d+) usm local-engine user admin-v(\\d+) authentication-sha",
+        "parameter": "snmp_v3_only",
+        "value": true,
+        "vendor": "Juniper"
+    },
+    {
+        "command_pattern": "set snmp v(\\d+) usm local-engine user admin-v(\\d+) privacy-aes(\\d+)",
+        "parameter": "snmp_v3_only",
+        "value": true,
+        "vendor": "Juniper"
+    },
+    {
+        "command_pattern": "enable algorithm-type sha(\\d+) secret SuperCiscoBorder(\\d+)!",
+        "parameter": "password_encryption_enabled",
+        "value": true,
+        "vendor": "Cisco"
+    },
+    {
+        "command_pattern": "snmp-server user secadmin SECUREGROUP v(\\d+) auth sha AuthPass(\\d+) priv aes (\\d+) PrivPass(\\d+)",
+        "parameter": "snmp_v3_only",
+        "value": true,
+        "vendor": "Cisco"
+    },
+    {
+        "command_pattern": "enable secret (\\d+) \\$(\\d+)\\$mERr\\$hx(\\d+)rVt(\\d+)rPNoS(\\d+)wqbXKX(\\d+)m(\\d+)",
+        "parameter": "password_encryption_enabled",
+        "value": true,
+        "vendor": "Cisco"
+    },
+    {
+        "command_pattern": "username admin privilege (\\d+) password adminpassword",
+        "parameter": "ssh_enabled",
+        "value": true,
+        "vendor": "Cisco"
+    },
+    {
+        "command_pattern": "no ip http secure-server",
+        "parameter": "https_enabled",
+        "value": true,
+        "vendor": "Cisco"
+    },
+    {
+        "command_pattern": "username admin privilege (\\d+) secret (\\d+) \\$(\\d+)\\$Fd(\\d+)f\\$KlmM(\\d+)Lsk(\\d+)R(\\d+)uYj(\\d+)gV(\\d+)qQn(\\d+)",
+        "parameter": "password_encryption_enabled",
+        "value": true,
+        "vendor": "Cisco"
+    }
+]
