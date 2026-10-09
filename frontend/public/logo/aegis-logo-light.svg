@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="shieldGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+    <linearGradient id="shieldGradLightAccent" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- SHIELD EMBLEM (Left) -->
+  <g transform="translate(30, 20)">
+    <!-- Outer Crest -->
+    <path d="M100,15 L175,45 C175,125 125,180 100,195 C75,180 25,125 25,45 Z" 
+          fill="none" stroke="url(#shieldGradLight)" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- Subtle inner shield fill -->
+    <path d="M100,24 L164,50 C164,120 120,170 100,184 C80,170 36,120 36,50 Z" 
+          fill="#F0F9FF" opacity="0.9"/>
+
+    <!-- Stylized "A" structure -->
+    <!-- Left Wing -->
+    <path d="M100,48 L56,145 L78,145 L94,110 L100,110" 
+          fill="url(#shieldGradLight)"/>
+          
+    <!-- Right Wing & Slash -->
+    <path d="M100,48 L144,145 L122,145 L106,110 L84,110 L100,72 L112,98 L98,98 Z" 
+          fill="url(#shieldGradLightAccent)"/>
+
+    <!-- Lower Diamond Node -->
+    <polygon points="100,126 118,158 100,176 82,158" 
+             fill="url(#shieldGradLight)"/>
+  </g>
+
+  <!-- TYPOGRAPHY: AEGIS (Right) -->
+  <g transform="translate(250, 135)">
+    <!-- Main wordmark -->
+    <text font-family="system-ui, -apple-system, 'SF Pro Display', 'Inter', sans-serif" 
+          font-size="88" 
+          font-weight="800" 
+          letter-spacing="14" 
+          fill="#0F172A">
+      AEGIS
+    </text>
+    <!-- Subtitle / Tagline -->
+    <text x="6" y="44" 
+          font-family="system-ui, -apple-system, 'SF Pro Text', 'Inter', sans-serif" 
+          font-size="16" 
+          font-weight="600" 
+          letter-spacing="8" 
+          fill="#0284C7">
+      INTELLIGENT DEFENSE &amp; SECURITY
+    </text>
+  </g>
+</svg>
