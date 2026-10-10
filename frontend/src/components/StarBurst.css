@@ -1,0 +1,23 @@
+.star-burst-container {
+  position: relative;
+  display: inline-block;
+}
+
+.star-burst-canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 50;
+  overflow: visible;
+}
+
+.star-burst-fullscreen {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+}
